@@ -1,0 +1,10 @@
+{
+  "name": "searchtok",
+  "version": "1.0.0",
+  "description": "Find the TikToks and Instagram Reels doing best in any niche, and why they worked: hooks quoted word for word, outlier scores from real views, and the creators behind them.",
+  "mcpServers": {
+    "searchtok": {
+      "httpUrl": "https://searchtok.app/mcp"
+    }
+  }
+}

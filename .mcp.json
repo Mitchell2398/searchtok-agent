@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "searchtok": {
+      "type": "http",
+      "url": "https://searchtok.app/mcp"
+    }
+  }
+}

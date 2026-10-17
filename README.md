@@ -30,6 +30,16 @@ the skill checks this first and tells you what's missing. pick one:
 
 then ask your agent something like "what's working for dentists on tiktok".
 
+## as a plugin
+
+this repo is also a plugin: the skill plus the searchtok mcp server.
+
+- `plugin.json` and `mcp.json`: the [agent plugins](https://agent-plugins.org) standard (cursor, codex).
+- `.claude-plugin/plugin.json` and `.mcp.json`: claude code and grok build.
+- `gemini-extension.json`: gemini cli. `gemini extensions install https://github.com/Mitchell2398/searchtok-agent`
+
+**what it connects to:** one remote mcp server, `https://searchtok.app/mcp` (streamable http). you sign in with oauth the first time it's used, and your agent keeps that sign-in. no scripts, hooks or binaries run.
+
 ## what's in it
 
 - `skills/searchtok/SKILL.md`: when to use searchtok, the setup check, every tool with its cli command and credits, and the evidence rules (hooks quoted exactly, every outlier score with its explanation, every post linked, what was searched).

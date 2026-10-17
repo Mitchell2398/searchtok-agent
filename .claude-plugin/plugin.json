@@ -1,0 +1,20 @@
+{
+  "name": "searchtok",
+  "version": "1.0.0",
+  "description": "Find the TikToks and Instagram Reels doing best in any niche, and why they worked: hooks quoted word for word, outlier scores from real views, and the creators behind them.",
+  "author": {
+    "name": "searchtok",
+    "url": "https://searchtok.app"
+  },
+  "homepage": "https://searchtok.app",
+  "repository": "https://github.com/Mitchell2398/searchtok-agent",
+  "license": "MIT",
+  "keywords": [
+    "searchtok",
+    "tiktok research",
+    "instagram reels research",
+    "tiktok outliers",
+    "tiktok hooks"
+  ],
+  "logo": "assets/logo.svg"
+}
